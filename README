@@ -3,7 +3,7 @@
  * Created By:		Ed Hasting-Evans, Copyright (c) 2011
  * 
  * Websites:		http://www.apple-marketing.co.uk
- * 					http://www.notebookonline.co.uk/
+ * 			http://www.notebookonline.co.uk/
  * 
  * License: 		This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported License.
  * 			To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/3.0/ 
@@ -12,4 +12,10 @@
  * Creation Date:	16th November 2011
  * 
  ******************************************************************************/
+
+The simplest way to call jSocial is this:
+$(YOUR_DIV).jsocial();
+
+Please note that Google + does not work in IE7. This is not a bug with the plugin
+it's just that Google never produced a version that worked with it.
 
