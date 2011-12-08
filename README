@@ -3,7 +3,7 @@
  * Created By:		Ed Hasting-Evans, Copyright (c) 2011
  * 
  * Websites:		http://www.apple-marketing.co.uk
- * 			http://www.notebookonline.co.uk/
+ * 					http://www.notebookonline.co.uk/
  * 
  * License: 		This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported License.
  * 			To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/3.0/ 
@@ -13,9 +13,3 @@
  * 
  ******************************************************************************/
 
-The easiest way to call sjSocial is like this:
-$('.postActions').jsocial();
-
-Please note, Google in their wisdom have decided that they would not develop
-Google + for IE7. So if you can't see the button in IE7 it's not a bug in the
-plugin. It's just the way it is.
