@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Social Buttons Demo</title>
+
+	<link rel="stylesheet" type="text/css" href="jSocial.css" />
+	
+	<!--[if IE 6]>
+		<link rel="stylesheet" type="text/css" href="css/ie6-hacks.css" />
+		<script type="text/javascript">
+			// IE6 Background Hover Flicker Fix
+			try {
+				document.execCommand('BackgroundImageCache',false,true);
+				}catch(ignoreme){
+			}
+		</script>
+	<![endif]-->
+  	<!--[if IE 7]>
+		<link rel="stylesheet" type="text/css" href="css/ie7-hacks.css" />
+	<![endif]-->
+</head>
+
+<body>
+
+<div id="pageWrap">
+
+<div class="review">
+	<div class="post">
+		<h1>Content</h1>
+		<p>sdfsd fdgdfg dgfgfg</p>
+		
+		<div class="postActions">
+			<p>asdfjasdfasdfjkl</p>
+		</div>
+	</div>
+</div>
+
+</div><!-- }}} pageWrap -->
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.jsocial.js"></script>
+<script>
+	$('.postActions').jsocial({debug: true, buttonLayout: 'horizontal'});
+</script>
+</body>
+</html>
