@@ -1,0 +1,37 @@
+{
+    "name": "social",
+    "version": "1.0",
+    "title": "jsocial()",
+    "author": {
+        "name": "Edward Hasting-Evans",
+        "url": "http://www.apple-marketing.co.uk"
+    },
+    "licenses": [
+        {
+            "type": "Creative Commons Attribution-ShareAlike 3.0 Unported License",
+            "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+        }
+    ],
+    "dependencies": {
+        "jquery": "1"
+    },
+    "description": "A simple way to add the key social buttons to your site without having to invalidate your code with scrappy HTML.",
+    "keywords": [
+        "social",
+        "twitter",
+        "digg",
+        "linkedin",
+		"google +1",
+		"google +",
+		"facebook",
+		"like",
+		"button",
+		"addthis"
+    ],
+    "files": [
+		"jquery.jsocial.js",
+        "index.html",
+		"jSocial.css",
+		"README"
+    ]
+}
