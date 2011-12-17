@@ -19,3 +19,23 @@ $(YOUR_DIV).jsocial();
 Please note that Google + does not work in IE7. This is not a bug with the plugin
 it's just that Google never produced a version that worked with it.
 
+You can also set the options below to customise what's shown:
+
+debug: false,				// If set to true outputs various bits so console.log
+insert: 'bottom',			// Insert buttons to top or bottom of div
+showTwitter: true,			// Shows Twitter
+showDigg: true,				// Shows Sigg
+showGooglePlus: true,			// Shows Google +
+showLinkedIn: true,			// Shows LinkedIn
+showFacebook: true,			// Shows Facebook
+showAddThis: true,			// Shows AddThis
+buttonLayout: 'vertical',  		// Layout either: horizontal, vertical, nocounter
+addThisLayout: 'addthis_counter',	// Can override the button layouts set in buttonLayout
+twitterLayout: 'vertical',		// Can override the button layouts set in buttonLayout
+googlePlusLayout: 'tall',		// Can override the button layouts set in buttonLayout
+diggLayout: 'DiggMedium',		// Can override the button layouts set in buttonLayout
+linkedinLayout: 'top',			// Can override the button layouts set in buttonLayout
+facebookLayout: 'box_count',		// Can override the button layouts set in buttonLayout
+faceBookSend: true,			// Adds the Facebook Send button
+facebookShowFaces: false   		// Sets the FB show faces options
+
